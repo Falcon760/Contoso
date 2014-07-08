@@ -14,7 +14,7 @@
 </p>
 @using (Html.BeginForm("Index", "Student", FormMethod.Get))
 {
-    <p>Find by Name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+    <p>Find by Name: @Html.Editor("SearchString", ViewBag.CurrentFilter as string)
     <input type="submit" value="Search" /></p>
     
 }
@@ -60,9 +60,5 @@
 Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of
 
 @Model.PageCount
-@Html.PagedListPager(Model, page => Url.Action("Index",
-
- new
- {
-     page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter
  }))

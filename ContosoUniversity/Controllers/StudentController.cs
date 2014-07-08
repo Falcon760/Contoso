@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using ContosoUniversity.DAL;
 using ContosoUniversity.Models;
 using PagedList;
+using System.Data.Entity.Infrastructure;
 
 namespace ContosoUniversity.Controllers
 {
@@ -56,6 +57,8 @@ namespace ContosoUniversity.Controllers
                     break;
                     
             }
+
+            //if pageNumber is not null pageNumber=page, otherwise pageNumber=1
             int pageSize = 3;
             int pageNumber = (page ?? 1);
             return View(students.ToPagedList(pageNumber, pageSize));
@@ -173,12 +176,12 @@ public ActionResult Edit([Bind(Include = "ID, LastName, FirstMidName, Enrollment
 public ActionResult Delete(int id)
 { 
  try 
- { 
- Student student = db.Students.Find(id); 
- db.Students.Remove(student); 
+ {
+ Student studentToDelete = new Student() { ID = id };
+ db.Entry(studentToDelete).State = EntityState.Deleted;
  db.SaveChanges(); 
  } 
- catch (DataException/* dex */) 
+ catch (RetryLimitExceededException/* dex */) 
  { 
  //Log the error (uncomment dex variable name and add a line here to write a log. 
  return RedirectToAction("Delete", new { id = id, saveChangesError = true }); 
