@@ -147,9 +147,10 @@
     <Compile Include="Logging\ILogger.cs" />
     <Compile Include="Logging\Logger.cs" />
     <Compile Include="Models\Department.cs" />
+    <Compile Include="App_Start\Course.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\Logger.cs" />
     <Compile Include="Models\Enrollment.cs" />
-    <Compile Include="Models\Instructor.cs" />
-    <Compile Include="Models\OfficeAssignment.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\EnrollmentGroup.cs" />
@@ -164,10 +165,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Properties\PublishProfiles\Contoso2153 %282%29.pubxml" />
-    <None Include="Properties\PublishProfiles\Contoso2153 %283%29.pubxml" />
-    <None Include="Properties\PublishProfiles\Contoso2153.pubxml" />
-    <None Include="Properties\PublishProfiles\contoso522.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
