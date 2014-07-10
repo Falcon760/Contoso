@@ -61,6 +61,9 @@ C:\Users\Steven\Documents\GitHub\Contoso\ContosoUniversity\bin\Antlr3.Runtime.pd
 C:\Users\Steven\Documents\GitHub\Contoso\ContosoUniversity\bin\Newtonsoft.Json.xml
 C:\Users\Steven\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 C:\Users\Steven\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+<<<<<<< HEAD
 C:\Users\Steven\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.ComplexDataModel.resources
 C:\Users\Steven\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.Cache
 C:\Users\Steven\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.csprojResolveAssemblyReference.cache
+=======
+>>>>>>> parent of c08a099... WedsChanges
