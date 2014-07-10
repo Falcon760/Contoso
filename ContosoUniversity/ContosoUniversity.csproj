@@ -134,26 +134,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="App_Start\Course.cs" />
-    <Compile Include="Logging\ILogger.cs" />
-    <Compile Include="Logging\Logger.cs" />
     <Compile Include="Migrations\201407081903047_InitialCreate.cs" />
-    <Compile Include="Migrations\201407081903047_InitialCreate.Designer.cs">
-      <DependentUpon>201407081903047_InitialCreate.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201407091432454_MaxLengthonNames.cs" />
-    <Compile Include="Migrations\201407091432454_MaxLengthonNames.Designer.cs">
-      <DependentUpon>201407091432454_MaxLengthonNames.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201407091525529_ColumnFirstName.cs" />
-    <Compile Include="Migrations\201407091525529_ColumnFirstName.Designer.cs">
-      <DependentUpon>201407091525529_ColumnFirstName.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201407091603250_StudentRequired.cs" />
-    <Compile Include="Migrations\201407091603250_StudentRequired.Designer.cs">
-      <DependentUpon>201407091603250_StudentRequired.cs</DependentUpon>
+    <Compile Include="Migrations\201407092040317_ComplexDataModel.cs" />
+    <Compile Include="Migrations\201407092040317_ComplexDataModel.Designer.cs">
+      <DependentUpon>201407092040317_ComplexDataModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Enrollment.cs" />
     <Compile Include="Models\Instructor.cs" />
     <Compile Include="Models\OfficeAssignment.cs" />
@@ -221,17 +214,8 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201407081903047_InitialCreate.resx">
-      <DependentUpon>201407081903047_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201407091432454_MaxLengthonNames.resx">
-      <DependentUpon>201407091432454_MaxLengthonNames.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201407091525529_ColumnFirstName.resx">
-      <DependentUpon>201407091525529_ColumnFirstName.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201407091603250_StudentRequired.resx">
-      <DependentUpon>201407091603250_StudentRequired.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201407092040317_ComplexDataModel.resx">
+      <DependentUpon>201407092040317_ComplexDataModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
