@@ -72,15 +72,5 @@ C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\bin\System.Web.WebPage
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\bin\Newtonsoft.Json.xml
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\bin\Antlr3.Runtime.pdb
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.csprojResolveAssemblyReference.cache
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.MaxLengthOnNames.resources
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.ColumnFirstName.resources
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.ComplexDataModel.resources
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.DepartmentSP.resources
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.RowVersion.resources
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.Inheritance.resources
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.Cache
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations._new.resources
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.new1.resources
