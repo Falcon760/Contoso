@@ -71,6 +71,5 @@ C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\bin\System.Web.WebPage
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\bin\System.Web.WebPages.Razor.xml
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\bin\Newtonsoft.Json.xml
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\bin\Antlr3.Runtime.pdb
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.csprojResolveAssemblyReference.cache
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
