@@ -33,7 +33,8 @@ namespace ContosoUniversity.DAL
             new Course{CourseID=1045,Title="Calculus",Credits=4,},
             new Course{CourseID=3141,Title="Trigonometry",Credits=4,},
             new Course{CourseID=2021,Title="Composition",Credits=3,},
-            new Course{CourseID=2042,Title="Literature",Credits=4,}
+            new Course{CourseID=2042,Title="Literature",Credits=4,},
+            new Course{CourseID=2044, Title="Physics", Credits=4}
             };
             courses.ForEach(s => context.Courses.Add(s));
             context.SaveChanges();

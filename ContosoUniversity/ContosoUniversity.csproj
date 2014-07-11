@@ -168,6 +168,14 @@
     <Compile Include="Migrations\201402251853267_Inheritance.Designer.cs">
       <DependentUpon>201402251853267_Inheritance.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201407112246580_new.cs" />
+    <Compile Include="Migrations\201407112246580_new.Designer.cs">
+      <DependentUpon>201407112246580_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201407112252293_new1.cs" />
+    <Compile Include="Migrations\201407112252293_new1.Designer.cs">
+      <DependentUpon>201407112252293_new1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Department.cs" />
@@ -256,6 +264,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201402251853267_Inheritance.resx">
       <DependentUpon>201402251853267_Inheritance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201407112246580_new.resx">
+      <DependentUpon>201407112246580_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201407112252293_new1.resx">
+      <DependentUpon>201407112252293_new1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
