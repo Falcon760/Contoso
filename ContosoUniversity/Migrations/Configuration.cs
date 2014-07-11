@@ -110,6 +110,12 @@ Location = "Gowan 27" },
 new OfficeAssignment {
 InstructorID = instructors.Single( i => i.LastName == "Kapoor").ID,
 Location = "Thompson 304" },
+new OfficeAssignment {
+    InstructorID = instructors.Single(i => i.LastName == "Abercrombie").ID,
+    Location="Edison 201" },
+    new OfficeAssignment{
+        InstructorID = instructors.Single(i => i.LastName == "Zheng").ID,
+        Location = "Smith 69"}
 };
             officeAssignments.ForEach(s => context.OfficeAssignments.AddOrUpdate(p => p.InstructorID, s));
             context.SaveChanges();

@@ -3,7 +3,7 @@ namespace ContosoUniversity.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InstructorCodeChange : DbMigration
+    public partial class Instructors : DbMigration
     {
         public override void Up()
         {
