@@ -138,13 +138,9 @@
     </Compile>
     <Compile Include="Logging\ILogger.cs" />
     <Compile Include="Logging\Logger.cs" />
-    <Compile Include="Migrations\201407110000448_New.cs" />
-    <Compile Include="Migrations\201407110000448_New.Designer.cs">
-      <DependentUpon>201407110000448_New.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201407110143133_Instructors.cs" />
-    <Compile Include="Migrations\201407110143133_Instructors.Designer.cs">
-      <DependentUpon>201407110143133_Instructors.cs</DependentUpon>
+    <Compile Include="Migrations\201407110215183_new1.cs" />
+    <Compile Include="Migrations\201407110215183_new1.Designer.cs">
+      <DependentUpon>201407110215183_new1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
@@ -168,8 +164,6 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\contoso522 %282%29.pubxml" />
-    <None Include="Properties\PublishProfiles\contoso522 %283%29.pubxml" />
-    <None Include="Properties\PublishProfiles\contoso522 %284%29.pubxml" />
     <None Include="Properties\PublishProfiles\contoso522.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -229,11 +223,8 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201407110000448_New.resx">
-      <DependentUpon>201407110000448_New.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201407110143133_Instructors.resx">
-      <DependentUpon>201407110143133_Instructors.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201407110215183_new1.resx">
+      <DependentUpon>201407110215183_new1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
