@@ -29,8 +29,9 @@ C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\bin\System.Web.WebPage
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\bin\System.Web.WebPages.Razor.xml
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\bin\Antlr3.Runtime.pdb
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\bin\Newtonsoft.Json.xml
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.new1.resources
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.Init.resources
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.csproj.GenerateResource.Cache
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.dll
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.pdb
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.csprojResolveAssemblyReference.cache
-C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.new1.resources
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.somenew.resources

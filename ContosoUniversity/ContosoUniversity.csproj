@@ -142,6 +142,14 @@
     <Compile Include="Migrations\201407110215183_new1.Designer.cs">
       <DependentUpon>201407110215183_new1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201407110301067_Init.cs" />
+    <Compile Include="Migrations\201407110301067_Init.Designer.cs">
+      <DependentUpon>201407110301067_Init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201407110324573_somenew.cs" />
+    <Compile Include="Migrations\201407110324573_somenew.Designer.cs">
+      <DependentUpon>201407110324573_somenew.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Department.cs" />
@@ -224,6 +232,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201407110215183_new1.resx">
       <DependentUpon>201407110215183_new1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201407110301067_Init.resx">
+      <DependentUpon>201407110301067_Init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201407110324573_somenew.resx">
+      <DependentUpon>201407110324573_somenew.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
