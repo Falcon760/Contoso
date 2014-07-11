@@ -33,3 +33,4 @@ C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUnive
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.Cache
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InstructorCodeChange.resources
