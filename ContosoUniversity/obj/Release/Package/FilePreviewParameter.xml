@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="contoso522" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="cutandpaste" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Steve\\Documents\\GitHub\\Contoso\\ContosoUniversity\\obj\\Release\\Package\\PackageTmp$" />
     <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Steve\\Documents\\GitHub\\Contoso\\ContosoUniversity\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
-  <parameter name="SchoolContext-Web.config Connection String" description="" value="Data Source=tcp:qd6y4irsq9.database.windows.net,1433;Initial Catalog=contosoAI47tbCmZ;Persist Security Info=True;User ID=Falcon760@qd6y4irsq9;Password=Falcon11" tags="">
+  <parameter name="SchoolContext-Web.config Connection String" description="" value="Data Source=tcp:d1xf9tj79g.database.windows.net,1433;User ID=Falcon760@d1xf9tj79g;Password=Falcon11" tags="">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\Steve\\Documents\\GitHub\\Contoso\\ContosoUniversity\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SchoolContext']/@connectionString" />
   </parameter>
 </parameters>
