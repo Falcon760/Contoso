@@ -140,6 +140,64 @@
     </Compile>
     <Compile Include="Logging\ILogger.cs" />
     <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Migrations\201402242126344_InitialCreate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201402242126344_InitialCreate.Designer.cs">
+      <DependentUpon>201402242126344_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201402242138028_MaxLengthOnNames.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201402242138028_MaxLengthOnNames.Designer.cs">
+      <DependentUpon>201402242138028_MaxLengthOnNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201402242139118_ColumnFirstName.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201402242139118_ColumnFirstName.Designer.cs">
+      <DependentUpon>201402242139118_ColumnFirstName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201402242150170_ComplexDataModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201402242150170_ComplexDataModel.Designer.cs">
+      <DependentUpon>201402242150170_ComplexDataModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201402251758056_DepartmentSP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201402251758056_DepartmentSP.Designer.cs">
+      <DependentUpon>201402251758056_DepartmentSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201402251804219_RowVersion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201402251804219_RowVersion.Designer.cs">
+      <DependentUpon>201402251804219_RowVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201402251853267_Inheritance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201402251853267_Inheritance.Designer.cs">
+      <DependentUpon>201402251853267_Inheritance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201407112246580_new.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201407112246580_new.Designer.cs">
+      <DependentUpon>201407112246580_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201407112252293_new1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201407112252293_new1.Designer.cs">
+      <DependentUpon>201407112252293_new1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201407120006266_new2.cs" />
+    <Compile Include="Migrations\201407120006266_new2.Designer.cs">
+      <DependentUpon>201407120006266_new2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -165,6 +223,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\contoso522 %282%29.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -215,6 +274,38 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201402242126344_InitialCreate.resx">
+      <DependentUpon>201402242126344_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201402242138028_MaxLengthOnNames.resx">
+      <DependentUpon>201402242138028_MaxLengthOnNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201402242139118_ColumnFirstName.resx">
+      <DependentUpon>201402242139118_ColumnFirstName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201402242150170_ComplexDataModel.resx">
+      <DependentUpon>201402242150170_ComplexDataModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201402251758056_DepartmentSP.resx">
+      <DependentUpon>201402251758056_DepartmentSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201402251804219_RowVersion.resx">
+      <DependentUpon>201402251804219_RowVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201402251853267_Inheritance.resx">
+      <DependentUpon>201402251853267_Inheritance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201407112246580_new.resx">
+      <DependentUpon>201407112246580_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201407112252293_new1.resx">
+      <DependentUpon>201407112252293_new1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201407120006266_new2.resx">
+      <DependentUpon>201407120006266_new2.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

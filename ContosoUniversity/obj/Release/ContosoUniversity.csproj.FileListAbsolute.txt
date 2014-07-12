@@ -32,3 +32,14 @@ C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\bin\Antlr3.Runtime.pdb
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.dll
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.pdb
 C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.InitialCreate.resources
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.MaxLengthOnNames.resources
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.ColumnFirstName.resources
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.ComplexDataModel.resources
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.DepartmentSP.resources
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.RowVersion.resources
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.Inheritance.resources
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations._new.resources
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.new1.resources
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.new2.resources
+C:\Users\Steve\Documents\GitHub\Contoso\ContosoUniversity\obj\Release\ContosoUniversity.csproj.GenerateResource.Cache
