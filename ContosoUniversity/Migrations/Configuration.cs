@@ -120,6 +120,12 @@ namespace ContosoUniversity.Migrations
                 new OfficeAssignment { 
                     InstructorID = instructors.Single( i => i.LastName == "Kapoor").ID, 
                     Location = "Thompson 304" },
+                    new OfficeAssignment{
+                        InstructorID = instructors.Single(i => i.LastName == "Abercrombie").ID,
+                        Location = "Smith 69" },
+                     new OfficeAssignment{
+                        InstructorID = instructors.Single(i => i.LastName == "Zheng").ID,
+                        Location = "Gowan 205" }
             };
             officeAssignments.ForEach(s => context.OfficeAssignments.AddOrUpdate(p => p.InstructorID, s));
             context.SaveChanges();

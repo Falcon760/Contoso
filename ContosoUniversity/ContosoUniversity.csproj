@@ -198,6 +198,10 @@
     <Compile Include="Migrations\201407120006266_new2.Designer.cs">
       <DependentUpon>201407120006266_new2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201407141244043_newData.cs" />
+    <Compile Include="Migrations\201407141244043_newData.Designer.cs">
+      <DependentUpon>201407141244043_newData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -305,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201407120006266_new2.resx">
       <DependentUpon>201407120006266_new2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201407141244043_newData.resx">
+      <DependentUpon>201407141244043_newData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
